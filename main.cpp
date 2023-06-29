@@ -497,6 +497,15 @@ int countVowels(const std::string& str, int index = 0) {
     // If the current character is not a vowel, skip it and recursively count the vowels
     return countVowels(str, index + 1);
 }
+// Function to calculate the nth term of the Taylor Series
+double taylorSeries(int x, int n) {
+    if (n == 0) {
+        return 1; // Base case: When n reaches 0, return 1 (first term of the series) 1 + x^0/1!+x^2/2! so on
+    }
+    double term = power(x, n) / factorial(n); // Calculate the current term using power and factorial functions
+    return term + taylorSeries(x, n - 1); // Recursively calculate the next term (n-1) and sum it with the current term
+}
+
 
 // Utility functions:
 
@@ -637,6 +646,15 @@ int main() {
 // Count the number of vowels in the string "Hello"
     int countVowelsResult = countVowels("Hello");
     printResult("Count Vowels", countVowelsResult); // 2
+
+
+
+    /// Calling Tylor Series e^x
+    int x = 2; // The value of x for which we want to calculate the Taylor Series
+    int n = 5; // The number of terms in the Taylor Series
+
+    double result = taylorSeries(x, n);
+    std::cout << "Result: " << result << std::endl;
 
 
     return 0;
