@@ -56,10 +56,10 @@ Please make sure to follow the existing coding style and provide appropriate doc
 The recursive functions implemented in this repository are inspired by common programming challenges and algorithmic problems.
 Credits and references to relevant sources are provided in the comments within the source code files. Some of the sources include:
 - https://en.wikipedia.org/wiki/Recursion_%28computer_science%29 
-- "Introduction to the Design and Analysis of Algorithms" by Anany Levitin
+- https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/
 - GeeksforGeeks (www.geeksforgeeks.org)
-- The Algorithm Design Manual by Steven S. Skiena
-- Introduction to Algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+- https://www.programiz.com/cpp-programming/recursion
+- https://www.w3schools.com/cpp/cpp_functions_recursion.asp
 - https://en.wikipedia.org/wiki/General_recursive_function
 
 If you find this repository helpful or have any suggestions, feel free to reach out and let me know!
