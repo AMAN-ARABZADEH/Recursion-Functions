@@ -61,6 +61,9 @@ Credits and references to relevant sources are provided in the comments within t
 - https://www.programiz.com/cpp-programming/recursion
 - https://www.w3schools.com/cpp/cpp_functions_recursion.asp
 - https://en.wikipedia.org/wiki/General_recursive_function
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 If you find this repository helpful or have any suggestions, feel free to reach out and let me know!
 
